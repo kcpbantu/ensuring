@@ -10,3 +10,15 @@ window.onload = function () {
 	e.setAttribute("href", "https://ensuring.link");
 	e.setAttribute("rel", "nofollow");
 	e.innerHTML = "Copyright &#169; 2021 <a expr:href='data:blog.homepageUrl' itemprop='creator' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'><data:blog.title/></span></a> All Right Reserved - Created by <a href='https://ensuring.link' target='_blank'>ENSURING</a>"
+	
+	   var button = document.getElementById('ensuringcredit');
+
+    button.onclick = function() {
+        var div = document.getElementById('footer');
+    if (div.style.display !== 'none') {
+        div.style.display = 'none';
+    }
+    else {
+        div.style.display = 'block';
+    }
+};
