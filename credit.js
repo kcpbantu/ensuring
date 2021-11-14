@@ -14,7 +14,7 @@ window.onload = function () {
 	   var button = document.getElementById('ensuringcredit');
 
     button.onclick = function() {
-        var div = document.getElementById('footer');
+        var div = document.getElementById('ensuringcredit');
     if (div.style.display !== 'none') {
         div.style.display = 'none';
     }
